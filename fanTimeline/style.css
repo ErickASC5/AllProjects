@@ -1,0 +1,21 @@
+/*
+body{
+    background-color: purple;
+}
+*/
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}

@@ -1,0 +1,83 @@
+#videoBG {
+    position:fixed;
+    z-index: -1;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+ }
+ 
+ @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro); 
+ 
+ body{
+  background-color: bisque;
+  display: inline;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;
+  background-color: rgb(25,25,25);
+  color:#fff; text-decoration: none;}
+  
+
+@keyframes typing {
+   from {width: 0}
+   to {width: 100%}
+} 
+
+@keyframes blink-caret {
+   from, to {border-color: transparent}
+   50% {border-color: orange}
+}
+
+ body {
+  background-color:black;
+  text-align: center;
+  color:#fff;
+  margin-left: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+} 
+
+
+/* Global */
+html{
+  min-height: 100%;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    transform: translateY(-50%);    
+}
+.Learn-Box{
+justify-content: space-around;
+display: flex;
+
+text-align: center;
+padding: 0px;
+margin: 100px;
+color: inherit;
+border:white;
+border: solid;
+line-height: 150px;
+padding: 5px;
+font-size: 30px;
+}
